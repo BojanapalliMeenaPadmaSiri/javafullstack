@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './style.css';
 import config from './config.js';
-<h1>Hello movie</h1>
+
 const MovieManager = () => {
   const [movies, setMovies] = useState([]);
   const [movie, setMovie] = useState({
@@ -146,6 +146,7 @@ const MovieManager = () => {
       )}
 
       <h2>Movie Watchlist</h2>
+      <h3>Hello movie</h3>
 
       {/* Add/Edit Movie */}
       <div>
